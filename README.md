@@ -1,3 +1,4 @@
+# lang0909 Fork Version
 ## Show Cases
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
@@ -80,6 +81,7 @@ export default class App extends React.Component {
 | enableCenterFocus | boolean | for disabling focus on image center if user doesn't want it | true |
 | onSwipeDown | () => void | function that fires when user swipes down | null |
 | swipeDownThreshold | number | threshold for firing swipe down function | 230 |
+| initialScale | number | initial zoom | 1 |
 | minScale | number | minimum zoom scale | 0.6 |
 | maxScale | number | maximum zoom scale | 10 |
 | useNativeDriver | boolean | Whether to animate using [`useNativeDriver`](https://reactnative.dev/docs/animations#using-the-native-driver) | false |
